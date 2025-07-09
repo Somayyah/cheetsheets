@@ -25,7 +25,12 @@ gpg --list-keys
 ## Export and share public key:
 
 ```
+# Export with the email address
 gpg --armor --export your@email.com > publickey.asc
+
+# Export with the fingerprint (get it from the command gpg --list-key)
+
+gpg --armor --export fingerprint > fingerprint.asc
 
 ```
 
