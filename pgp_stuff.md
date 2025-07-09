@@ -52,3 +52,15 @@ gpg --encrypt --armor -r recipient@email.com message.txt
 gpg --decrypt encrypted_message.asc
 
 ```
+
+## Export private key for backup purposes:
+
+```
+gpg --armor --export-secret-keys your@email.com > privatekey.asc
+```
+
+# Verify identity
+
+Visit https://keyoxide.org/ to verify key identity
+
+
