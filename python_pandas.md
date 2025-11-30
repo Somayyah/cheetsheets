@@ -21,3 +21,5 @@ df = pd.read_excel()
 DataFrame.loc[row_labels, column_labels]
 DataFrame.loci[row_labels, column_labels]
 ```
+
+
